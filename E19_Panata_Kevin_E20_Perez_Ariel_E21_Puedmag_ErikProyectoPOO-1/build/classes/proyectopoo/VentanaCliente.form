@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="!!Bienvenidos Clientes&#xa1;&#xa1;"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="66" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder justification="2" title="Buscar su libro">
+              <Font PropertyName="font" name="Perpetua Titling MT" size="18" style="2"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jButton1" min="-2" pref="106" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" pref="85" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel1" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="365" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jTextField1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="32" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTextField1" min="-2" pref="32" max="-2" attributes="0"/>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="342" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jButton1" max="32767" attributes="0"/>
+                      <Component id="jButton3" pref="37" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField1KeyTyped"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="32">
+                    <Column editable="false" title="Nombre del Libro" type="java.lang.Object">
+                      <Data value="1984"/>
+                      <Data value="Amor en tiempos de colera"/>
+                      <Data value="Boca cerrada"/>
+                      <Data value="Cementerio de Animales"/>
+                      <Data value="Cien a&#xf1;os de soledad"/>
+                      <Data value="Crimen y castigo"/>
+                      <Data value="Don Quijote de la Mancha"/>
+                      <Data value="El Ciclo del Hombre Lobo"/>
+                      <Data value="El cuento de la criada"/>
+                      <Data value="El retrato de Dorian Gray"/>
+                      <Data value="El se&#xf1;or de los anillos"/>
+                      <Data value="El testamento maya"/>
+                      <Data value="El tiempo mientras tanto"/>
+                      <Data value="Emma"/>
+                      <Data value="En busca del Tiempo Perdido"/>
+                      <Data value="Guerra y paz"/>
+                      <Data value="H&#xe1;bitos atomicos"/>
+                      <Data value="It"/>
+                      <Data value="La abad&#xed;a de Northanger"/>
+                      <Data value="La otra ciudad"/>
+                      <Data value="La piedra lunar"/>
+                      <Data value="La Tormenta del Siglo"/>
+                      <Data value="La suma de los d&#xed;as"/>
+                      <Data value="Lolita"/>
+                      <Data value="Madame Bovary"/>
+                      <Data value="Mansfield Park"/>
+                      <Data value="Todo se desmorona"/>
+                      <Data value="Orgullo y prejuicio"/>
+                      <Data value="Padre rico Padre pobre"/>
+                      <Data value="Que empiece la fiesta"/>
+                      <Data value="Ulises"/>
+                      <Data value="Un mundo feliz"/>
+                    </Column>
+                    <Column editable="false" title="Autor" type="java.lang.Object">
+                      <Data value="George Orwell"/>
+                      <Data value="Gabriel Garcia marquez"/>
+                      <Data value="Simonetta Agnello Hornby"/>
+                      <Data value="Stephen King"/>
+                      <Data value="Gabriel Garc&#xed;a M&#xe1;rquez"/>
+                      <Data value="Fi&#xf3;dor Dostoyevski"/>
+                      <Data value="Miguel de Cervantes"/>
+                      <Data value="Stephen King"/>
+                      <Data value="Margaret Atwood"/>
+                      <Data value="Oscar Wilde"/>
+                      <Data value="John Ronald Reuel Tolkien"/>
+                      <Data value="Steve Alten"/>
+                      <Data value="Carmen Amoraga"/>
+                      <Data value="Jane Austen"/>
+                      <Data value="Marcel Proust"/>
+                      <Data value="Le&#xf3;n Tolst&#xf3;i"/>
+                      <Data value="James Clear"/>
+                      <Data value="Stephen King"/>
+                      <Data value="Jane Austen"/>
+                      <Data value="Pablo Aranda"/>
+                      <Data value="Wilkie Collins"/>
+                      <Data value="Stephen King"/>
+                      <Data value="Isabel Allende"/>
+                      <Data value="Vladimir Nabokov"/>
+                      <Data value="Gustave Flaubert"/>
+                      <Data value="Jane Austen"/>
+                      <Data value="Chinua Achebe"/>
+                      <Data value="Jane Austen"/>
+                      <Data value="Robert Kiyosaky"/>
+                      <Data value="Niccolo Ammaniti"/>
+                      <Data value="James Joyce"/>
+                      <Data value="Aldous Huxley"/>
+                    </Column>
+                    <Column editable="false" title="C&#xf3;digo" type="java.lang.Object">
+                      <Data value="0001"/>
+                      <Data value="0002"/>
+                      <Data value="0003"/>
+                      <Data value="0004"/>
+                      <Data value="0005"/>
+                      <Data value="0006"/>
+                      <Data value="0007"/>
+                      <Data value="0008"/>
+                      <Data value="0009"/>
+                      <Data value="0010"/>
+                      <Data value="0011"/>
+                      <Data value="0012"/>
+                      <Data value="0013"/>
+                      <Data value="0014"/>
+                      <Data value="0015"/>
+                      <Data value="0016"/>
+                      <Data value="0017"/>
+                      <Data value="0018"/>
+                      <Data value="0019"/>
+                      <Data value="0020"/>
+                      <Data value="0021"/>
+                      <Data value="0022"/>
+                      <Data value="0023"/>
+                      <Data value="0024"/>
+                      <Data value="0025"/>
+                      <Data value="0026"/>
+                      <Data value="0027"/>
+                      <Data value="0028"/>
+                      <Data value="0029"/>
+                      <Data value="0030"/>
+                      <Data value="0031"/>
+                      <Data value="0032"/>
+                    </Column>
+                    <Column editable="false" title="Precio" type="java.lang.Object">
+                      <Data value="$12"/>
+                      <Data value="$23"/>
+                      <Data value="$18"/>
+                      <Data value="$12"/>
+                      <Data value="$15"/>
+                      <Data value="$16"/>
+                      <Data value="$10"/>
+                      <Data value="$24"/>
+                      <Data value="$15"/>
+                      <Data value="$17"/>
+                      <Data value="$25"/>
+                      <Data value="$17"/>
+                      <Data value="$15"/>
+                      <Data value="$21"/>
+                      <Data value="$11"/>
+                      <Data value="$19"/>
+                      <Data value="$18"/>
+                      <Data value="$23"/>
+                      <Data value="$17"/>
+                      <Data value="$18"/>
+                      <Data value="$20"/>
+                      <Data value="$13"/>
+                      <Data value="$13"/>
+                      <Data value="$13"/>
+                      <Data value="$15"/>
+                      <Data value="$17"/>
+                      <Data value="$14"/>
+                      <Data value="$16"/>
+                      <Data value="$10"/>
+                      <Data value="$17"/>
+                      <Data value="$13"/>
+                      <Data value="$19"/>
+                    </Column>
+                  </Table>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="jTable1ComponentAdded"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Perpetua Titling MT" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="COPIE EL C&#xd3;DIGO DEL LIBRO Y DIR&#xcd;GASE A CAJA PARA REALIZAR EL PAGO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="BUSQUE SU LIBRO CON EL AUTOR (Use May&#xfa;sculas para los nombres):"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Regresar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
